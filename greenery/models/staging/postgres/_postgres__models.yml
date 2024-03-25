@@ -1,0 +1,28 @@
+version: 2
+
+models: 
+  - name: postgres
+    database : RAW
+    schema : public
+
+    tables: 
+      - name: stg_postgres_addresses
+        description: "a model for addresses"
+
+      - name: events
+        description: "a model for addresses"
+
+      - name: orders
+        description: "a model for addresses"
+
+      - name: order_items
+        description: "a model for addresses"
+
+      - name: products
+        description: "a model for products"
+
+      - name: promos
+        description: "a model for promos"
+
+      - name: users
+        description: "a model for addresses"
